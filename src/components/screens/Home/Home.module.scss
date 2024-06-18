@@ -1,0 +1,41 @@
+.wrapper {
+	display: flex;
+
+	.content {
+		width: 100%;
+		flex: 5;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		overflow-x: auto;
+		flex-wrap: wrap;
+		gap: 30px;
+		margin-top: 60px;
+		.doughnut {
+			width: 600px;
+			height: 300px;
+			display: flex;
+			justify-content: center;
+			gap: 50px;
+			border-radius: 20px;
+			padding: 20px;
+			background-color: rgba(172, 172, 172, 0.049);
+			.info {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				row-gap: 30px;
+				h3 {
+					font-size: 30px;
+				}
+			}
+		}
+		.bar_chart {
+			width: 600px;
+			height: 300px;
+			background-color: rgba(172, 172, 172, 0.049);
+			padding: 20px;
+			border-radius: 20px;
+		}
+	}
+}
